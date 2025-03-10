@@ -1,0 +1,24 @@
+{
+  "name": "homegrown-backend",
+  "version": "1.0.0",
+  "description": "Node, Apollo, GraphQL. Connected to AWS RDS Postgres 16 instance.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^3.13.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "graphql": "^16.10.0",
+    "pg": "^8.13.3"
+  },
+  "devDependencies": {
+    "eslint": "^9.22.0",
+    "nodemon": "^3.1.9",
+    "prettier": "^3.5.3"
+  }
+}
